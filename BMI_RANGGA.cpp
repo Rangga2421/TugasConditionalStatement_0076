@@ -46,5 +46,8 @@ int main() {
     cout << "--- Hasil ---" << endl;
     cout << "BMI Anda : " << bmi << endl;
 
-    
+    //Memanggil fungsi status BMI
+    cout << "Status : " << statusBMI(bmi) << endl;
+
+    return 0;
 }
